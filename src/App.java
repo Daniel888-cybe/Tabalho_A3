@@ -9,7 +9,9 @@ public class App {
         switch (operacao) {
             case 1:
                 System.out.println("digite qual produto você quer adicionar");
-            
+                String produto = entrada.next();
+                System.out.println("qual a quantidade desse produto:");
+                int quantidade = entrada.nextInt();
                 break;
             case 2:
                 System.out.println("lista de produtos");
@@ -18,7 +20,7 @@ public class App {
                 System.out.println("qual produto voce quer atualizar");
                 break;
             case 4:
-                System.out.println("digite o produto que deseja excluir");
+                System.out.println("Selecione o produto que deseja excluir");
                 break;
         }
         
